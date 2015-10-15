@@ -6,6 +6,7 @@
                 
         <persistence-unit name="default" transaction-type="RESOURCE_LOCAL">
                 
-                               
+        	<class>mavenffff.domain.UserEntity</class>  
+        	                     
         </persistence-unit>
 </persistence>
