@@ -22,6 +22,8 @@
                 </transition>                
         </view-state>
         
+        
+        
         <action-state id="authentication">
                 <evaluate expression="userAuthenticationProviderService.processUserAuthentication(user)" />
                 <transition on="yes" to="finish" />
